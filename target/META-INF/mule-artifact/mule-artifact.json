@@ -1,0 +1,40 @@
+{
+  "configs": [
+    "mule/implementation/implementation.xml",
+    "mule/common/global-config.xml"
+  ],
+  "secureProperties": [
+    "mule.encryption.key"
+  ],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:connectors-version-template:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "application-types.xml",
+        "mule/common/global-config.xml",
+        "mule/implementation/implementation.xml",
+        "mule/implementation/README.md",
+        "properties/common.yaml",
+        "properties/dev.yaml",
+        "properties/local.yaml",
+        "properties/prod.yaml",
+        "properties/qa.yaml",
+        "properties/uat.yaml",
+        "security/secure-dev.yaml",
+        "security/secure-local.yaml",
+        "security/secure-prod.yaml",
+        "security/secure-qa.yaml",
+        "security/secure-uat.yaml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
